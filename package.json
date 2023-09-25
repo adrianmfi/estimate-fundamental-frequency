@@ -1,0 +1,37 @@
+{
+  "name": "estimate-fundamental-frequency",
+  "version": "1.0.0",
+  "description": "Estimating the fundamental frequency of a signal",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianmfi/estimate-fundamental-frequency.git"
+  },
+  "keywords": [
+    "fundamental-frequency",
+    "audio",
+    "frequency-detection"
+  ],
+  "author": "Adrian Meidell Fiorito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrianmfi/estimate-fundamental-frequency/issues"
+  },
+  "homepage": "https://github.com/adrianmfi/estimate-fundamental-frequency#readme",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  }
+}
